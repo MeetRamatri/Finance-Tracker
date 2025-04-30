@@ -1,0 +1,30 @@
+/* Budget page styles */
+
+/* Progress bar container */
+.progress-bar-container {
+  width: 100%;
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Base progress bar */
+.progress-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Progress bar colors based on percentage */
+.progress-bar-safe {
+  background-color: #28a745; /* Green for safe spending */
+}
+
+.progress-bar-warning {
+  background-color: #ffc107; /* Yellow for warning */
+}
+
+.progress-bar-danger {
+  background-color: #dc3545; /* Red for danger/overspending */
+}

@@ -1,0 +1,784 @@
+
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "Password123",
+      "createdAt": "2023-10-01"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "Password123",
+      "createdAt": "2023-10-05"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "password": "Password123",
+      "createdAt": "2023-10-10"
+    },
+    {
+      "id": "4",
+      "name": "Sarah Williams",
+      "email": "sarah@example.com",
+      "password": "Password123",
+      "createdAt": "2023-10-15"
+    },
+    {
+      "id": "5",
+      "name": "Michael Brown",
+      "email": "michael@example.com",
+      "password": "Password123",
+      "createdAt": "2023-10-20"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": 1,
+      "date": "2023-11-01",
+      "description": "Monthly Salary",
+      "category": "Income",
+      "amount": 5000,
+      "type": "Credit"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "date": "2023-11-02",
+      "description": "Rent Payment",
+      "category": "Housing",
+      "amount": 1500,
+      "type": "Debit"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "date": "2023-11-03",
+      "description": "Grocery Shopping",
+      "category": "Food",
+      "amount": 250,
+      "type": "Debit"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "date": "2023-11-05",
+      "description": "Freelance Project",
+      "category": "Income",
+      "amount": 1200,
+      "type": "Credit"
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "date": "2023-11-07",
+      "description": "Gas Station",
+      "category": "Transportation",
+      "amount": 60,
+      "type": "Debit"
+    },
+    {
+      "id": "6",
+      "userId": 1,
+      "date": "2023-11-10",
+      "description": "Restaurant Dinner",
+      "category": "Food",
+      "amount": 85,
+      "type": "Debit"
+    },
+    {
+      "id": "7",
+      "userId": 1,
+      "date": "2023-11-12",
+      "description": "Movie Tickets",
+      "category": "Entertainment",
+      "amount": 30,
+      "type": "Debit"
+    },
+    {
+      "id": "8",
+      "userId": 1,
+      "date": "2023-11-15",
+      "description": "Electricity Bill",
+      "category": "Utilities",
+      "amount": 120,
+      "type": "Debit"
+    },
+    {
+      "id": "9",
+      "userId": 1,
+      "date": "2023-11-18",
+      "description": "Online Course",
+      "category": "Education",
+      "amount": 199,
+      "type": "Debit"
+    },
+    {
+      "id": "10",
+      "userId": 1,
+      "date": "2023-11-20",
+      "description": "Investment Dividend",
+      "category": "Income",
+      "amount": 450,
+      "type": "Credit"
+    },
+    {
+      "id": "11",
+      "userId": 1,
+      "date": "2023-11-22",
+      "description": "Coffee Shop",
+      "category": "Food",
+      "amount": 15,
+      "type": "Debit"
+    },
+    {
+      "id": "12",
+      "userId": 1,
+      "date": "2023-11-25",
+      "description": "Mobile Phone Bill",
+      "category": "Utilities",
+      "amount": 75,
+      "type": "Debit"
+    },
+    {
+      "id": "13",
+      "userId": 1,
+      "date": "2023-11-28",
+      "description": "Gym Membership",
+      "category": "Health",
+      "amount": 50,
+      "type": "Debit"
+    },
+    {
+      "id": "14",
+      "userId": 1,
+      "date": "2023-11-30",
+      "description": "Internet Bill",
+      "category": "Utilities",
+      "amount": 65,
+      "type": "Debit"
+    },
+    {
+      "id": "15",
+      "userId": 1,
+      "date": "2023-12-01",
+      "description": "Monthly Salary",
+      "category": "Income",
+      "amount": 5000,
+      "type": "Credit"
+    },
+    {
+      "id": "16",
+      "userId": 1,
+      "date": "2023-12-02",
+      "description": "Rent Payment",
+      "category": "Housing",
+      "amount": 1500,
+      "type": "Debit"
+    },
+    {
+      "id": "17",
+      "userId": 1,
+      "date": "2023-12-05",
+      "description": "Grocery Shopping",
+      "category": "Food",
+      "amount": 220,
+      "type": "Debit"
+    },
+    {
+      "id": "18",
+      "userId": 2,
+      "date": "2023-11-01",
+      "description": "Salary",
+      "category": "Income",
+      "amount": 4500,
+      "type": "Credit"
+    },
+    {
+      "id": "19",
+      "userId": 2,
+      "date": "2023-11-03",
+      "description": "Apartment Rent",
+      "category": "Housing",
+      "amount": 1200,
+      "type": "Debit"
+    },
+    {
+      "id": "20",
+      "userId": 2,
+      "date": "2023-11-05",
+      "description": "Supermarket",
+      "category": "Food",
+      "amount": 180,
+      "type": "Debit"
+    },
+    {
+      "id": "21",
+      "userId": 2,
+      "date": "2023-11-08",
+      "description": "Gas Bill",
+      "category": "Utilities",
+      "amount": 95,
+      "type": "Debit"
+    },
+    {
+      "id": "22",
+      "userId": 2,
+      "date": "2023-11-10",
+      "description": "Shopping Mall",
+      "category": "Shopping",
+      "amount": 150,
+      "type": "Debit"
+    },
+    {
+      "id": "23",
+      "userId": 2,
+      "date": "2023-11-15",
+      "description": "Bonus",
+      "category": "Income",
+      "amount": 1000,
+      "type": "Credit"
+    },
+    {
+      "id": "24",
+      "userId": 2,
+      "date": "2023-11-18",
+      "description": "Doctor Visit",
+      "category": "Health",
+      "amount": 120,
+      "type": "Debit"
+    },
+    {
+      "id": "25",
+      "userId": 2,
+      "date": "2023-11-22",
+      "description": "Car Insurance",
+      "category": "Transportation",
+      "amount": 200,
+      "type": "Debit"
+    },
+    {
+      "id": "26",
+      "userId": 2,
+      "date": "2023-11-25",
+      "description": "Restaurant",
+      "category": "Food",
+      "amount": 75,
+      "type": "Debit"
+    },
+    {
+      "id": "27",
+      "userId": 2,
+      "date": "2023-12-01",
+      "description": "Salary",
+      "category": "Income",
+      "amount": 4500,
+      "type": "Credit"
+    },
+    {
+      "id": "28",
+      "userId": 3,
+      "date": "2023-11-01",
+      "description": "Consulting Fee",
+      "category": "Income",
+      "amount": 3000,
+      "type": "Credit"
+    },
+    {
+      "id": "29",
+      "userId": 3,
+      "date": "2023-11-04",
+      "description": "Mortgage Payment",
+      "category": "Housing",
+      "amount": 1100,
+      "type": "Debit"
+    },
+    {
+      "id": "30",
+      "userId": 3,
+      "date": "2023-11-07",
+      "description": "Grocery Store",
+      "category": "Food",
+      "amount": 190,
+      "type": "Debit"
+    },
+    {
+      "id": "31",
+      "userId": 3,
+      "date": "2023-11-10",
+      "description": "Electricity Bill",
+      "category": "Utilities",
+      "amount": 110,
+      "type": "Debit"
+    },
+    {
+      "id": "32",
+      "userId": 3,
+      "date": "2023-11-15",
+      "description": "Freelance Project",
+      "category": "Income",
+      "amount": 1500,
+      "type": "Credit"
+    },
+    {
+      "id": "33",
+      "userId": 3,
+      "date": "2023-11-18",
+      "description": "Clothing Store",
+      "category": "Shopping",
+      "amount": 220,
+      "type": "Debit"
+    },
+    {
+      "id": "34",
+      "userId": 3,
+      "date": "2023-11-22",
+      "description": "Dentist Appointment",
+      "category": "Health",
+      "amount": 150,
+      "type": "Debit"
+    },
+    {
+      "id": "35",
+      "userId": 3,
+      "date": "2023-11-25",
+      "description": "Bus Pass",
+      "category": "Transportation",
+      "amount": 80,
+      "type": "Debit"
+    },
+    {
+      "id": "36",
+      "userId": 3,
+      "date": "2023-12-01",
+      "description": "Consulting Fee",
+      "category": "Income",
+      "amount": 3000,
+      "type": "Credit"
+    },
+    {
+      "id": "37",
+      "userId": 4,
+      "date": "2023-11-01",
+      "description": "Salary",
+      "category": "Income",
+      "amount": 4200,
+      "type": "Credit"
+    },
+    {
+      "id": "38",
+      "userId": 4,
+      "date": "2023-11-03",
+      "description": "Rent",
+      "category": "Housing",
+      "amount": 1300,
+      "type": "Debit"
+    },
+    {
+      "id": "39",
+      "userId": 4,
+      "date": "2023-11-06",
+      "description": "Grocery Shopping",
+      "category": "Food",
+      "amount": 210,
+      "type": "Debit"
+    },
+    {
+      "id": "40",
+      "userId": 4,
+      "date": "2023-11-10",
+      "description": "Phone Bill",
+      "category": "Utilities",
+      "amount": 85,
+      "type": "Debit"
+    },
+    {
+      "id": "41",
+      "userId": 4,
+      "date": "2023-11-15",
+      "description": "Part-time Job",
+      "category": "Income",
+      "amount": 800,
+      "type": "Credit"
+    },
+    {
+      "id": "42",
+      "userId": 4,
+      "date": "2023-11-18",
+      "description": "Concert Tickets",
+      "category": "Entertainment",
+      "amount": 120,
+      "type": "Debit"
+    },
+    {
+      "id": "43",
+      "userId": 4,
+      "date": "2023-11-22",
+      "description": "Pharmacy",
+      "category": "Health",
+      "amount": 45,
+      "type": "Debit"
+    },
+    {
+      "id": "44",
+      "userId": 4,
+      "date": "2023-11-25",
+      "description": "Uber Rides",
+      "category": "Transportation",
+      "amount": 65,
+      "type": "Debit"
+    },
+    {
+      "id": "45",
+      "userId": 4,
+      "date": "2023-12-01",
+      "description": "Salary",
+      "category": "Income",
+      "amount": 4200,
+      "type": "Credit"
+    },
+    {
+      "id": "46",
+      "userId": 5,
+      "date": "2023-11-01",
+      "description": "Salary",
+      "category": "Income",
+      "amount": 5500,
+      "type": "Credit"
+    },
+    {
+      "id": "47",
+      "userId": 5,
+      "date": "2023-11-03",
+      "description": "Mortgage",
+      "category": "Housing",
+      "amount": 1800,
+      "type": "Debit"
+    },
+    {
+      "id": "48",
+      "userId": 5,
+      "date": "2023-11-06",
+      "description": "Supermarket",
+      "category": "Food",
+      "amount": 280,
+      "type": "Debit"
+    },
+    {
+      "id": "49",
+      "userId": 5,
+      "date": "2023-11-09",
+      "description": "Water Bill",
+      "category": "Utilities",
+      "amount": 70,
+      "type": "Debit"
+    },
+    {
+      "id": "50",
+      "userId": 5,
+      "date": "2023-11-12",
+      "description": "Car Payment",
+      "category": "Transportation",
+      "amount": 350,
+      "type": "Debit"
+    },
+    {
+      "id": "51",
+      "userId": 5,
+      "date": "2023-11-15",
+      "description": "Bonus",
+      "category": "Income",
+      "amount": 1200,
+      "type": "Credit"
+    },
+    {
+      "id": "52",
+      "userId": 5,
+      "date": "2023-11-18",
+      "description": "Electronics Store",
+      "category": "Shopping",
+      "amount": 450,
+      "type": "Debit"
+    },
+    {
+      "id": "53",
+      "userId": 5,
+      "date": "2023-11-22",
+      "description": "Gym Membership",
+      "category": "Health",
+      "amount": 80,
+      "type": "Debit"
+    },
+    {
+      "id": "54",
+      "userId": 5,
+      "date": "2023-11-25",
+      "description": "Restaurant",
+      "category": "Food",
+      "amount": 120,
+      "type": "Debit"
+    },
+    {
+      "id": "55",
+      "userId": 5,
+      "date": "2023-12-01",
+      "description": "Salary",
+      "category": "Income",
+      "amount": 5500,
+      "type": "Credit"
+    },
+    {
+      "id": "db88",
+      "date": "2025-04-20",
+      "description": "Milk",
+      "category": "Food",
+      "amount": "30",
+      "type": "Debit",
+      "userId": 1
+    },
+    {
+      "id": "04ac",
+      "date": "2025-04-20",
+      "description": "aks",
+      "category": "askdjn",
+      "amount": "938",
+      "type": "Debit",
+      "userId": 1
+    },
+    {
+      "id": "a4e8",
+      "date": "2025-04-20",
+      "description": "meet",
+      "category": "meet",
+      "amount": "131",
+      "type": "Debit",
+      "userId": 1
+    },
+    {
+      "id": 1745155833534,
+      "date": "2025-04-20",
+      "description": "jn",
+      "category": "kjn",
+      "amount": 678,
+      "type": "Debit",
+      "userId": 1
+    },
+    {
+      "id": 1745155848103,
+      "date": "2025-04-20",
+      "description": "sadkjn",
+      "category": "asdjkn",
+      "amount": 3535,
+      "type": "Debit",
+      "userId": 1
+    }
+  ],
+  "budgets": [
+    {
+      "id": "1",
+      "userId": 1,
+      "category": "Housing",
+      "budgeted": 1600,
+      "month": 11,
+      "year": 2023
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "category": "Food",
+      "budgeted": 900,
+      "month": 11,
+      "year": 2023
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "category": "Transportation",
+      "budgeted": 500,
+      "month": 11,
+      "year": 2023
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "category": "Entertainment",
+      "budgeted": 300,
+      "month": 11,
+      "year": 2023
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "category": "Utilities",
+      "budgeted": 300,
+      "month": 11,
+      "year": 2023
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Housing",
+      "type": "expense",
+      "color": "#3498db",
+      "subcategories": [
+        "Rent",
+        "Mortgage",
+        "Property Tax",
+        "Home Insurance",
+        "Repairs",
+        "Home Improvement"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Food",
+      "type": "expense",
+      "color": "#2ecc71",
+      "subcategories": [
+        "Groceries",
+        "Restaurants",
+        "Fast Food",
+        "Coffee Shops",
+        "Food Delivery"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Transportation",
+      "type": "expense",
+      "color": "#e74c3c",
+      "subcategories": [
+        "Gas",
+        "Car Payment",
+        "Car Insurance",
+        "Public Transit",
+        "Ride Sharing",
+        "Maintenance"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Entertainment",
+      "type": "expense",
+      "color": "#f39c12",
+      "subcategories": [
+        "Movies",
+        "Concerts",
+        "Streaming Services",
+        "Hobbies",
+        "Sports Events"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Utilities",
+      "type": "expense",
+      "color": "#9b59b6",
+      "subcategories": [
+        "Electricity",
+        "Water",
+        "Gas",
+        "Internet",
+        "Phone",
+        "Cable"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Education",
+      "type": "expense",
+      "color": "#1abc9c",
+      "subcategories": [
+        "Tuition",
+        "Books",
+        "Courses",
+        "Supplies",
+        "Student Loans"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Health",
+      "type": "expense",
+      "color": "#d35400",
+      "subcategories": [
+        "Insurance",
+        "Doctor Visits",
+        "Medications",
+        "Gym",
+        "Wellness"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Shopping",
+      "type": "expense",
+      "color": "#8e44ad",
+      "subcategories": [
+        "Clothing",
+        "Electronics",
+        "Home Goods",
+        "Gifts",
+        "Personal Care"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Income",
+      "type": "income",
+      "color": "#27ae60",
+      "subcategories": [
+        "Salary",
+        "Bonus",
+        "Freelance",
+        "Investments",
+        "Gifts Received"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Savings",
+      "type": "expense",
+      "color": "#16a085",
+      "subcategories": [
+        "Emergency Fund",
+        "Retirement",
+        "Vacation",
+        "Down Payment",
+        "Education"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Debt",
+      "type": "expense",
+      "color": "#c0392b",
+      "subcategories": [
+        "Credit Card",
+        "Student Loans",
+        "Personal Loans",
+        "Medical Debt",
+        "Other Debt"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Gifts & Donations",
+      "type": "expense",
+      "color": "#f1c40f",
+      "subcategories": [
+        "Charity",
+        "Gifts Given",
+        "Donations",
+        "Fundraisers"
+      ]
+    }
+  ]
+}
