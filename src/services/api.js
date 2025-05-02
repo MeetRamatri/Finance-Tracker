@@ -2,7 +2,7 @@
  * API service for interacting with the JSON server
  */
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://finance-manager-00us.onrender.com';
 
 // Generic API request function with error handling
 async function apiRequest(endpoint, method = 'GET', data = null) {
@@ -11,7 +11,9 @@ async function apiRequest(endpoint, method = 'GET', data = null) {
   const options = {
     method,
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Access-Control-Allow-Origin': '*'
     }
   };
 
@@ -23,6 +25,11 @@ async function apiRequest(endpoint, method = 'GET', data = null) {
     const response = await fetch(url, options);
     
     if (!response.ok) {
+      console.error('API Error:', {
+        status: response.status,
+        statusText: response.statusText,
+        url: url
+      });
       throw new Error(`API error: ${response.status} ${response.statusText}`);
     }
     
