@@ -11,7 +11,9 @@ async function apiRequest(endpoint, method = 'GET', data = null) {
   const options = {
     method,
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Access-Control-Allow-Origin': '*'
     }
   };
 
@@ -23,6 +25,11 @@ async function apiRequest(endpoint, method = 'GET', data = null) {
     const response = await fetch(url, options);
     
     if (!response.ok) {
+      console.error('API Error:', {
+        status: response.status,
+        statusText: response.statusText,
+        url: url
+      });
       throw new Error(`API error: ${response.status} ${response.statusText}`);
     }
     
