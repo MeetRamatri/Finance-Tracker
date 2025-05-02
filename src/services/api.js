@@ -2,7 +2,7 @@
  * API service for interacting with the JSON server
  */
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://finance-manager-00us.onrender.com';
 
 // Generic API request function with error handling
 async function apiRequest(endpoint, method = 'GET', data = null) {

@@ -34,7 +34,7 @@ const createTransaction = async (transaction) => {
     
     console.log('Formatted transaction:', formattedTransaction);
     
-    const response = await fetch('http://localhost:3001/transactions', {
+    const response = await fetch('https://finance-manager-00us.onrender.com/transactions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

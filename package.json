@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 3001",
-    "start": "concurrently \"npm run dev\" \"npm run server\""
+    "server": "echo \"Using remote API at https://finance-manager-00us.onrender.com\"",
+    "start": "npm run dev"
   },
   "dependencies": {
     "chart.js": "^4.4.8",
